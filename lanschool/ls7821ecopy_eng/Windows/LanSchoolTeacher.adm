@@ -1,0 +1,404 @@
+CLASS MACHINE
+CATEGORY !!categoryname0
+	KEYNAME "SOFTWARE\LanSchool"
+
+	POLICY !!policyname0
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext0
+		PART !!labeltext0 NUMERIC
+		VALUENAME "Channel"
+		MIN 1 MAX 16001 DEFAULT 1
+		END PART
+	END POLICY
+
+	POLICY !!policyname1
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext1
+		PART !!labeltext1 DROPDOWNLIST
+		VALUENAME "EnableChannelSelect"
+		ITEMLIST
+			NAME On VALUE NUMERIC 1
+			NAME Off VALUE NUMERIC 0
+		END ITEMLIST
+		END PART
+	END POLICY
+
+	POLICY !!policyname2
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext2
+	PART Transport DROPDOWNLIST
+		VALUENAME "Transport"
+		ITEMLIST
+			NAME Broadcast VALUE NUMERIC 0
+			NAME Multicast VALUE NUMERIC 1
+		END ITEMLIST
+		END PART
+	END POLICY
+
+	POLICY !!policyname3
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext3
+		PART "Installation Options" NUMERIC
+		VALUENAME "Options"
+		MIN 0 MAX 1023 DEFAULT 0
+		END PART		
+	END POLICY
+
+	POLICY !!policyname4
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext4
+		PART "Password" EDITTEXT
+		VALUENAME "PerfCntSz"
+		END PART
+	END POLICY
+	
+	POLICY !!policyname5
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext5 
+		PART "Color Reduction" DROPDOWNLIST
+		VALUENAME "ColorReduction"
+		ITEMLIST
+				NAME On VALUE NUMERIC 1
+				NAME Off VALUE NUMERIC 0
+		END ITEMLIST
+		END PART
+	END POLICY
+
+	POLICY !!policyname6
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext6
+		PART "Console Hiding" DROPDOWNLIST
+		VALUENAME "HideConsoleOnBroadcast"
+		ITEMLIST
+				NAME On VALUE Numeric 1
+				NAME Off VALUE Numeric 0
+		END ITEMLIST
+		END PART
+	END POLICY
+
+	POLICY !!policyname7
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext7
+		PART "Disable Data Transmission Editing" DROPDOWNLIST
+		VALUENAME "DisableDataTransmission"
+		ITEMLIST
+				NAME On VALUE Numeric 1
+				NAME Off VALUE Numeric 0
+		END ITEMLIST
+		END PART
+	END POLICY
+
+	POLICY !!policyname8
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext8
+		PART "Connection Server IP Address:Port" EDITTEXT
+		VALUENAME "ConnectionServerAddress"
+		END PART
+	END POLICY
+
+	POLICY !!policyname9
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext9
+		PART "webRelay Server IP Address:Port" EDITTEXT
+		VALUENAME "RelayServerAddress"
+		END PART
+	END POLICY
+
+	POLICY !!policyname10
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext10
+		PART "Limit Task Manager / Activity Monitor on Student" DROPDOWNLIST
+		VALUENAME "LimitTaskMan"
+		ITEMLIST
+				NAME No VALUE Numeric 0
+				NAME Yes VALUE Numeric 1
+		END ITEMLIST
+		END PART
+	END POLICY
+	POLICY !!policyname11
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext11
+		PART "SSID Whitelist (plus symbol delimited)" EDITTEXT
+		VALUENAME "AllowedSSIDs"
+		END PART
+	END POLICY
+
+	POLICY !!policyname12
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext12
+		PART "Dynamic Class List Interface (must be On, in order to use the next two Dynamic Class List settings)" DROPDOWNLIST
+		VALUENAME "DynamicClassListInterface"
+		ITEMLIST
+				NAME Off VALUE Numeric 0
+				NAME On VALUE Numeric 1
+		END ITEMLIST
+		END PART
+	END POLICY
+		
+	POLICY !!policyname13
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext13
+		PART "Dynamic Class List CSV Folder  (canonical path to a folder)" EDITTEXT
+		VALUENAME "DynamicClassListCSVFolder"
+		END PART
+	END POLICY
+	
+	POLICY !!policyname14
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext14
+		PART "Dynamic Class List Default Type" DROPDOWNLIST
+		VALUENAME "DynamicClassListDefaultType"
+		ITEMLIST
+				NAME Login_Name VALUE Numeric 0
+				NAME Machine_Name VALUE Numeric 1
+				NAME AD_Name VALUE Numeric 2
+		END ITEMLIST
+		END PART
+	END POLICY
+
+	POLICY !!policyname15
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext15
+		PART "Suppress Auto Update Notification" DROPDOWNLIST
+		VALUENAME "AutoCheckUpdates"
+		ITEMLIST
+				NAME Suppress VALUE Numeric 0
+				NAME Allow VALUE Numeric 1
+		END ITEMLIST
+		END PART
+	END POLICY
+
+END CATEGORY
+
+CATEGORY !!categoryname1
+	KEYNAME "SOFTWARE\Wow6432Node\LanSchool"
+
+	POLICY !!policyname0
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext0
+		PART !!labeltext0 NUMERIC
+		VALUENAME "Channel"
+		MIN 1 MAX 16001 DEFAULT 1
+		END PART
+	END POLICY
+
+	POLICY !!policyname1
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext1
+		PART !!labeltext1 DROPDOWNLIST
+		VALUENAME "EnableChannelSelect"
+		ITEMLIST
+			NAME On VALUE NUMERIC 1
+			NAME Off VALUE NUMERIC 0
+		END ITEMLIST
+		END PART
+	END POLICY
+
+	POLICY !!policyname2
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext2
+	PART Transport DROPDOWNLIST
+		VALUENAME "Transport"
+		ITEMLIST
+			NAME Broadcast VALUE NUMERIC 0
+			NAME Multicast VALUE NUMERIC 1
+		END ITEMLIST
+		END PART
+	END POLICY
+
+	POLICY !!policyname3
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext3
+		PART "Installation Options" NUMERIC
+		VALUENAME "Options"
+		MIN 0 MAX 1023 DEFAULT 0
+		END PART		
+	END POLICY
+
+	POLICY !!policyname4
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext4
+		PART "Password" EDITTEXT
+		VALUENAME "PerfCntSz"
+		END PART
+	END POLICY
+	
+	POLICY !!policyname5
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext5 
+		PART "Color Reduction" DROPDOWNLIST
+		VALUENAME "ColorReduction"
+		ITEMLIST
+				NAME On VALUE NUMERIC 1
+				NAME Off VALUE NUMERIC 0
+		END ITEMLIST
+		END PART
+	END POLICY
+
+	POLICY !!policyname6
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext6
+		PART "Console Hiding" DROPDOWNLIST
+		VALUENAME "HideConsoleOnBroadcast"
+		ITEMLIST
+				NAME On VALUE Numeric 1
+				NAME Off VALUE Numeric 0
+		END ITEMLIST
+		END PART
+	END POLICY
+
+	POLICY !!policyname7
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext7
+		PART "Disable Data Transmission Editing" DROPDOWNLIST
+		VALUENAME "DisableDataTransmission"
+		ITEMLIST
+				NAME On VALUE Numeric 1
+				NAME Off VALUE Numeric 0
+		END ITEMLIST
+		END PART
+	END POLICY
+
+	POLICY !!policyname8
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext8
+		PART "Connection Server IP Address:Port" EDITTEXT
+		VALUENAME "ConnectionServerAddress"
+		END PART
+	END POLICY
+
+	POLICY !!policyname9
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext9
+		PART "webRelay Server IP Address:Port" EDITTEXT
+		VALUENAME "RelayServerAddress"
+		END PART
+	END POLICY
+
+	POLICY !!policyname10
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext10
+		PART "Limit Task Manager / Activity Monitor on Student" DROPDOWNLIST
+		VALUENAME "LimitTaskMan"
+		ITEMLIST
+				NAME No VALUE Numeric 0
+				NAME Yes VALUE Numeric 1
+		END ITEMLIST
+		END PART
+	END POLICY
+
+	POLICY !!policyname11
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext11
+		PART "SSID Whitelist (plus symbol delimited)" EDITTEXT
+		VALUENAME "AllowedSSIDs"
+		END PART
+	END POLICY
+
+	POLICY !!policyname12
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext12
+		PART "Dynamic Class List Interface (must be On, in order to use the next two Dynamic Class List settings)" DROPDOWNLIST
+		VALUENAME "DynamicClassListInterface"
+		ITEMLIST
+				NAME Off VALUE Numeric 0
+				NAME On VALUE Numeric 1
+		END ITEMLIST
+		END PART
+	END POLICY
+		
+	POLICY !!policyname13
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext13
+		PART "Dynamic Class List CSV Folder  (canonical path to a folder)" EDITTEXT
+		VALUENAME "DynamicClassListCSVFolder"
+		END PART
+	END POLICY
+	
+	POLICY !!policyname14
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext14
+		PART "Dynamic Class List Default Type" DROPDOWNLIST
+		VALUENAME "DynamicClassListDefaultType"
+		ITEMLIST
+				NAME Login_Name VALUE Numeric 0
+				NAME Machine_Name VALUE Numeric 1
+				NAME AD_Name VALUE Numeric 2
+		END ITEMLIST
+		END PART
+	END POLICY
+
+	POLICY !!policyname15
+	SUPPORTED !!SUPPORTED_WindowsVISTA
+	EXPLAIN !!explaintext15
+		PART "Suppress Auto Update Notification" DROPDOWNLIST
+		VALUENAME "AutoCheckUpdates"
+		ITEMLIST
+				NAME Suppress VALUE Numeric 0
+				NAME Allow VALUE Numeric 1
+		END ITEMLIST
+		END PART
+	END POLICY
+
+END CATEGORY
+
+[strings]
+categoryname0="LanSchool Teacher 32bit Options"
+
+categoryname1="LanSchool Teacher 64bit Options"
+
+policyname0="LanSchool Teacher Channel"
+
+SUPPORTED_WindowsVISTA="SUPPORTED_WindowsVISTA"
+
+explaintext0="This changes the selected channel for LanSchool students."
+labeltext0="LanSchool Channel"
+
+policyname1="Channel Select"
+
+explaintext1="By enabling this option you can allow the Teacher console to change channels. Please see the user guide for more information."
+labeltext1="Channel Select"
+
+policyname2="LanSchool Network Protocol"
+
+explaintext2="This option will change the network protocol that LanSchool will use. Select the option that works best for the site. Please consult the Install.pdf for more information.  \n\nNote: when selecting Directed Broadcast, you must also fill in the Directed Broadcast Address list "
+labeltext2="LanSchool Network Protocol"
+
+policyname3="Install Options"
+explaintext3="LanSchool offers multiple advanced installation options. Select the options you wish to use and add the sum of their values in the Options Box. These options are needed when a Teacher performs a Switch To Student. \n\n Stealth = 1 - The LanSchool icon is removed from the student toolbar. \n\n Allow Student to Change Channel = 2 - This gives the students the ability to change their own Classroom Channel. This option is disabled by default. \n\n No Keyboard Monitoring = 4 - This disables the Keyboard Monitoring ability on the Student systems. \n\n Password Secure Mode = 8 - The Secure version of LanSchool requires the use of a matched password between the Student and Teacher before they will communicate. \n\n Active Directory Secure Mode = 16 - Teacher must be a member of the domain user group "LanSchool Teachers" to control Students with Active Directory Secure Mode enabled.  \n\n No Internet History Logging = 128 - When this option is enabled, LanSchool will no longer track the sites that are visited by a student system. \n\n Auto-send Crash Reports to Stoneware = 256 - This enables crash reports to automatically be sent to Stoneware for analysis. \n\n Enable Network Tampering Control = 512 - This option enables the blanking of Student's screens when a wired or wireless network adapter is disconnected. \n\n For more information on the various options available in LanSchool, please review the Installation guide"
+
+policyname4="Secure Mode Password"
+explaintext4="When using Password Secure Mode a password must be supplied. This password must be the same for both the Teacher and the students in a class."
+
+policyname5="Color Reduction"
+explaintext5="By default, LanSchool uses color reduction when viewing the Student and Teacher screens. \n\n  This option will allow you to enable or disable this feature during the deployment."
+
+policyname6="Hide Teacher Console During Broadcast"
+explaintext6="When a Teacher shows their screen to the students, LanSchool automatically minimizes the console to the system tray. This setting allows for this feature to be disabled, allowing the Teacher console to remain in place."
+
+policyname7="Disable Data Transmission Editing"
+explaintext7="By enabling this option, the ability to change the data transmission type will become inaccessible to the Teacher console."
+
+policyname8="Connection Server Address"
+explaintext8="Setting this option allows Teacher and Student to connect to the Connection Server instead of directly.\nEnter IP Address:Port\nDefault port number is 8080\nExample: 192.168.1.10:8080"
+
+policyname9="webRelay Server Address"
+explaintext9="This option can be used in combination with Connection Server to support Distance Teaching for students.\nEnter IP Address:Port\nDefault port number is 8081\nExample: 192.168.100.10:8081"
+
+policyname10="Turn Off Teacher's Limit Task Manager Control"
+explaintext10="Enabling this policy setting turns off the Teacher's ability to limit Task Manager and Activity Monitor.\n\nDisabling this policy setting allows the Teacher the ability to use the Limit Task Manager / Activity Monitor on Student control in the Teacher Console Preferences.\n\nSet this policy setting to 'Not Configured' to allow the current setting to persist.\n\n"
+
+policyname11="SSID Whitelist"
+explaintext11="This option can be used if Network Tampering Controls are enabled to specify SSIDs that are allowed.  Delimit multiple SSIDs with the '+' character."
+
+policyname12="Dynamic Class List Interface"
+explaintext12="You are required to turn this On in order to use the following settings for: \n\n   Dynamic Class List CSV Folder \n\n   Dynamic Class List Default Type."
+
+policyname13="Dynamic Class List CSV Folder"
+explaintext13="The Dynamic Class List CSV Folder should be set to the canonical path, relative to the Teacher Console, for the folder that contains the Dynamic Class List CSV files (eg. StudentsForClassByMachineName.csv, et.al.)"
+
+policyname14="Dynamic Class List Default Type"
+explaintext14="The Type of Dynamic Class List that is default selected in the Teacher Consoles Dynamic Class List configuration area.  The three types are: AD Name, Machine Name, or Login Name."
+
+policyname15="Suppress Auto Update Notification"
+explaintext15="Setting this option to Suppress will cause the Windows Teacher Console to no longer display a prompt at startup when there is a newer version of Teacher Console available for download."
