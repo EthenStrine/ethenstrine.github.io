@@ -39,8 +39,9 @@
     
     /* Change the background color of the dropdown button when the dropdown content is shown */
     .dropdown:hover .dropbtn {background-color: #3e8e41;
+    }
 
-.vertical-menu {
+    .vertical-menu {
     width: 200px; /* Set a width if you like */
 }
 
@@ -52,7 +53,7 @@
     text-decoration: none; /* Remove underline from links */
     text-align: center;
 }
-}
+
 
 .vertical-menu a:hover {
     background-color: #ccc; /* Dark grey background on mouse-over */
