@@ -18,8 +18,18 @@ var quotes = [
     'For the gaming fishermen there was the Whatoosie River and its native cocka-snoek, the main game fish of the resident Skegg’s Valley Dynamite Fishing Club. Cocka-snoek were wily and tough and rather too bright for mere fish. You wouldn’t catch much with a rod around here. Many inexperienced visitors would find the bait stolen from their hooks, which punctuated the discovery that their lines had somehow got snagged and tangled irretrievably around some underwater obstruction – sometimes tied together with neat little bows. Often, several direct hits with hand grenades were needed to stun the creatures long enough just to catch them, gut them and fry them, but these former military types had become experts at it. For a modest fee, tours could be arranged via the booking office, which included an overnight stay on the banks of the river where one could drop off to a great night’s sleep after a satisfying meal of cocka-snoek done on an open fire, and the sound the bits of shrapnel made rattling in your stomach.',
     'As they roared past the streetlamps, people emerged from their houses to see what was happening. Nina tried to imagine what their wild crew must look like to these Fjerdans. What did they see as they poked their heads out of windows and doorways? A group of hooting kids clinging to a tank painted with the Fjerdan flag and charging along like some deranged float gone astray from its parade: a girl in purple silk and a boy with red-gold curls poking out from behind the guns; four soaked people holding tight to the sides for dear life—a Shu boy in prison clothes, two bedraggled drüskelle, and Nina, a half-naked girl in shreds of teal chiffon shouting, "We have a moat!',
     'What\'s the good of living if you don\'t try a few things?',
-    '<h1>FUCKING WHORE</h1>',
-    'It\'s like turtle sex.'
+    'It\'s like turtle sex.',
+    'We accept the love <i>we think we deserve.</i>',
+    'We are all in the gutter, but some of us are looking at the stars.',
+    'Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us that <b>dragons can be beaten.</b>',
+    'To the well-organized mind, death is but the next great adventure.',
+    'Listen to the mustn\'ts, child. Listen to the don\'ts. Listen to the shouldn\'ts, the impossibles, the won\'ts. Listen to the never haves, then listen close to me... Anything can happen, child. Anything can be.',
+    'Do what you can, with what you have, where you are.',
+    '"Duct tape can\'t fix stupid," Bas growled. "Maybe not," Red replied, "but it can hold it down and muffled the screams."',
+    'Civilization is held together by duct tape and spit, and I\'m worried about the duct tape.',
+    'The important thing to you is not how many years in your life, but how much life in your years!',
+    'It’s only after you’ve stepped outside your comfort zone that you begin to change, grow, and transform.',
+    'There\'s something finite about the thought of death, you know that while you may get there in the end. <i>You definitely aren\'t there now.</i>',
 ];
 
 function newQuote() {
