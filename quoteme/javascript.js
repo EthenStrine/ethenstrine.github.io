@@ -19,7 +19,7 @@ var quotes = [
     'As they roared past the streetlamps, people emerged from their houses to see what was happening. Nina tried to imagine what their wild crew must look like to these Fjerdans. What did they see as they poked their heads out of windows and doorways? A group of hooting kids clinging to a tank painted with the Fjerdan flag and charging along like some deranged float gone astray from its parade: a girl in purple silk and a boy with red-gold curls poking out from behind the guns; four soaked people holding tight to the sides for dear life—a Shu boy in prison clothes, two bedraggled drüskelle, and Nina, a half-naked girl in shreds of teal chiffon shouting, "We have a moat!',
     'What\'s the good of living if you don\'t try a few things?',
     '<h1>FUCKING WHORE</h1>',
-    
+    'It\'s like turtle sex.'
 ];
 
 function newQuote() {
