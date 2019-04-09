@@ -1,4 +1,11 @@
-body {
-    background: #7B68EE;
-    font-family: “Trebuchet MS”, Verdana, Arial, serif;
-  }
+div.quoteDisplay {
+    height: 10em;
+    position: relative }
+div.quoteDisplay p {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
