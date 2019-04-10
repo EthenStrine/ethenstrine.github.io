@@ -8,7 +8,7 @@ var quotes = [
     "Have you ever noticed how ‘What the hell’ is always the right decision to make?",
     'Beauty is in the eye of the beholder and it may be necessary from time to time to give a stupid or misinformed beholder a black eye.',
     "Saying 'I notice you're a nerd' is like saying, 'Hey, I notice that you'd rather be intelligent than be stupid, that you'd rather be thoughtful than be vapid, that you believe that there are things that matter more than the arrest record of Lindsay Lohan. Why is that?' In fact, it seems to me that most contemporary insults are pretty lame. Even 'lame' is kind of lame. Saying 'You're lame' is like saying 'You walk with a limp.' Yeah, whatever, so does 50 Cent, and he's done all right for himself.",
-    'The story so far\: <b>In the beginning the Universe was created\.</b> This has made a lot of people very angry and been widely regarded as a bad move\.',
+    '<h3>The story so far\:</h3> <b>In the beginning the Universe was created\.</b> This has made a lot of people very angry and been widely regarded as a bad move\.',
     'The trouble with having an open mind, of course, is that people will insist on coming along and trying to put things in it.',
     'From the moment I picked up your book until I put it down, I was convulsed with laughter. Some day I intend reading it.',
     'Fuck.',
@@ -30,6 +30,7 @@ var quotes = [
     'The important thing to you is not how many years in your life, but how much life in your years!',
     'It’s only after you’ve stepped outside your comfort zone that you begin to change, grow, and transform.',
     'There\'s something finite about the thought of death, you know that while you may get there in the end. <i>You definitely aren\'t there now.</i>',
+    'Hold fast to dreams, </br> For if dreams die </br> Life is a broken-winged bird, </br> That cannot fly',
 ];
 
 function newQuote() {
